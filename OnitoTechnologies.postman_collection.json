@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "9e585a55-2afb-4ba8-a2c5-4a19b5087999",
+		"name": "OnitoTechnologies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25056841"
+	},
+	"item": [
+		{
+			"name": "update-runtime-minutes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/v1/update-runtime-minutes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"v1",
+						"update-runtime-minutes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create-New-Movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/v1/update-runtime-minutes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"v1",
+						"update-runtime-minutes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "longest-duration-movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/v1/longest-duration-movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"v1",
+						"longest-duration-movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "movies-with-subtotals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/v1/genre-movies-with-subtotals",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"v1",
+						"genre-movies-with-subtotals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "top-rated-movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/api/v1/top-rated-movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"v1",
+						"top-rated-movies"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
